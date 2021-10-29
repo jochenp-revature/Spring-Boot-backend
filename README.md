@@ -55,7 +55,7 @@ For software teams, the stand-up is like the team’s huddle. It’s even common
 * All curriculum end points are available at /curriculum/...
   - /add : insert a curriculum by sending a curriculum object in the body of a post request
   - / : finds all curricula and returns a list
-  - /findId/<id> : finds a specific curricula by its id number in the path variable
+  - /findId/{id} : finds a specific curricula by its id number in the path variable
   - /findName/<name> : finds a specific curricula by name as a path variable
   - /update : updates a curricula object from a post request body
   - /deleteById/<id> : deletes a curricula by its id as a path variable
